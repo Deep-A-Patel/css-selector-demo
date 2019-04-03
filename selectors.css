@@ -1,0 +1,46 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+header {
+    border: 1px solid goldenrod;
+}
+header a {
+    display: inline;
+    font-family: arial;
+    padding-right: 50px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.disabled {
+    color: grey;
+}
+ .disabled:not(a) {
+    color: purple;
+} 
+.active {
+    color: yellow;
+}
+.parent > div > div {
+    color: red;
+}
+.parent div:nth-child(3) {
+    color: blue;
+} 
+.parent > div > h4:nth-child(2) {
+    background-color: red;
+}
+.parent > div > h4:nth-child(4) {
+    background-color: blue;
+}
+.grandparent > h4 {
+    border: 1px solid teal;
+    border-radius: 4px;
+}
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+span input {
+    height: 25px;
+}
